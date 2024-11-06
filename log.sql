@@ -187,7 +187,7 @@ ORDER BY people.passport_number;
 SELECT people.name FROM people
 WHERE passport_number = 5773159633;
 
---get the name of the person when we have gotten the phone number to be (375) 555-8161
+--get the name of the accomplice when we have gotten the phone number to be (375) 555-8161
 SELECT people.name FROM people
 WHERE people.phone_number IN
 (
